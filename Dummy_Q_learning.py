@@ -21,7 +21,7 @@ def main():
     env = gym.make("FrozenLake-v3")
 
     # Initialize table with all zeors
-    Q = np.zeros([env.observation_space.n, env.action_space.n]) # size of space in the game(4x4), the number of actions that it can
+    Q = np.zeros([env.observation_space.n, env.action_space.n]) # the size of space in the game(4x4), the number of actions that it can
     # Set learning parameters
     num_episodes = 2000
 
